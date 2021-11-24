@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		76BFC4D3274E418F0013263E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76BFC4D2274E418F0013263E /* main.cpp */; };
+		76BFC4DB274E41C70013263E /* Valve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76BFC4DA274E41C70013263E /* Valve.cpp */; };
+		76BFC4DE274E41FA0013263E /* ValveCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76BFC4DD274E41FA0013263E /* ValveCtrl.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		76BFC4CF274E418F0013263E /* FSM-TabellenstrukturLambda */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSM-TabellenstrukturLambda"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BFC4D2274E418F0013263E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		76BFC4D9274E41AF0013263E /* Valve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Valve.h; sourceTree = "<group>"; };
+		76BFC4DA274E41C70013263E /* Valve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Valve.cpp; sourceTree = "<group>"; };
+		76BFC4DC274E41DD0013263E /* ValveCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValveCtrl.h; sourceTree = "<group>"; };
+		76BFC4DD274E41FA0013263E /* ValveCtrl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ValveCtrl.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				76BFC4D2274E418F0013263E /* main.cpp */,
+				76BFC4D9274E41AF0013263E /* Valve.h */,
+				76BFC4DA274E41C70013263E /* Valve.cpp */,
+				76BFC4DC274E41DD0013263E /* ValveCtrl.h */,
+				76BFC4DD274E41FA0013263E /* ValveCtrl.cpp */,
 			);
 			path = "FSM-TabellenstrukturLambda";
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76BFC4DB274E41C70013263E /* Valve.cpp in Sources */,
 				76BFC4D3274E418F0013263E /* main.cpp in Sources */,
+				76BFC4DE274E41FA0013263E /* ValveCtrl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
